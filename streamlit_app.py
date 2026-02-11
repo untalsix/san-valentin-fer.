@@ -49,7 +49,7 @@ with col1:
     if st.button("¡SÍ! 😍"):
         st.balloons()
         st.success("¡Me acabas de hacer la persona más feliz del mundo! 🌹✨")
-        st.flowers()
+        st.snow()
 
 with col2:
     if st.button("No... 🥺"):
