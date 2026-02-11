@@ -34,9 +34,9 @@ st.title("💌 Una nota especial...")
 
 # Intenta cargar la foto de ustedes
 try:
-    st.image("IMG_5885.jpeg", use_container_width=True)
+    st.image("IMG_0159.jpeg", use_container_width=True)
 except:
-    st.warning('IMG_5885.jpeg')
+    st.warning('IMG_0159.jpeg')
 
 st.write("### Holaaa, mi vida preciosa")
 st.write("Hay algo que he querido preguntarte hace tiempo...")
