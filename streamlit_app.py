@@ -30,7 +30,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("💌 Una nota especial...")
+st.title("💌 Una pregunta especial...")
 
 # Intenta cargar la foto de ustedes
 try:
@@ -41,7 +41,7 @@ except:
 st.write("### Holaaa, mi vida preciosa")
 st.write("Hay algo que he querido preguntarte hace tiempo...")
 
-st.markdown("## **¿Quieres ser mi San Valentín? Guapa ❤️**")
+st.markdown("## **¿Quieres ser mi San Valentín? ❤️**")
 
 col1, col2 = st.columns(2)
 
@@ -53,4 +53,4 @@ with col1:
 
 with col2:
     if st.button("No... 🥺"):
-        st.error("¡Ijoleeeee esa opción ahora no ando funcionando. 🤣")
+        st.error("¡Ijoleeeee esa opción ahorita no anda funcionando. 🤣")
