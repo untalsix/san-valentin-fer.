@@ -34,11 +34,11 @@ st.title("💌 Una nota especial...")
 
 # Intenta cargar la foto de ustedes
 try:
-    st.image("nosotros.jpg", use_container_width=True)
+    st.image("IMG_5885.jpeg", use_container_width=True)
 except:
-    st.warning('nosotros.jpg')
+    st.warning('IMG_5885.jpeg')
 
-st.write("### Holaaaa, mi vida preciosa")
+st.write("### Holaaa, mi vida preciosa")
 st.write("Hay algo que he querido preguntarte hace tiempo...")
 
 st.markdown("## **¿Quieres ser mi San Valentín? Guapa ❤️**")
@@ -53,4 +53,4 @@ with col1:
 
 with col2:
     if st.button("No... 🥺"):
-        st.error("¡Esa opción está deshabilitada por exceso de amor! Intenta de nuevo. 😉")
+        st.error("¡Ijoleeeee esa opción ahora no ando funcionando. 🤣")
