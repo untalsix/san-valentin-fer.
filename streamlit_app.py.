@@ -36,7 +36,7 @@ st.title("💌 Una nota especial...")
 try:
     st.image("nosotros.jpg", use_container_width=True)
 except:
-    st.warning("⚠️ Recuerda subir la foto con el nombre 'nosotros.jpg' al mismo lugar que este código.")
+    st.warning('nosotros.jpg')
 
 st.write("### Holaaaa, mi vida preciosa")
 st.write("Hay algo que he querido preguntarte hace tiempo...")
